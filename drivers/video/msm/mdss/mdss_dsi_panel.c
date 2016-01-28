@@ -35,7 +35,6 @@ DEFINE_LED_TRIGGER(bl_led_trigger);
 
 bool mdss_screen_on = true;
 extern void lazyplug_enter_lazy(bool enter);
-
 bool display_on = true;
 
 bool is_display_on()
@@ -757,8 +756,6 @@ static int mdss_dsi_panel_off(struct mdss_panel_data *pdata)
 #ifdef CONFIG_POWERSUSPEND
 	set_power_suspend_state_panel_hook(POWER_SUSPEND_ACTIVE);
 #endif
-
-    
 
 end:
 	pinfo->blank_state = MDSS_PANEL_BLANK_BLANK;
