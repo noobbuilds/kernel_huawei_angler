@@ -231,16 +231,6 @@ struct zz_dbs_tuners {
 	unsigned int afs_threshold4;
 };
 
-struct ex_dbs_tuners {
-	unsigned int ignore_nice_load;
-	unsigned int sampling_rate;
-	unsigned int up_threshold;
-	unsigned int down_differential;
-	unsigned int active_floor_freq;
-	unsigned int sampling_down_factor;
-	unsigned int powersave;
-};
-
 /* Common Governor data across policies */
 struct dbs_data;
 struct common_dbs_data {
