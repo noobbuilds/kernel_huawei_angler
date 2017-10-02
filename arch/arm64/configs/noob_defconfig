@@ -1,10 +1,10 @@
-###############
-#             #
-# FLASH SETUP #
-#             #
-###############
+####################
+#                  #
+# NOOBBUILDS SETUP #
+#                  #
+####################
 
-CONFIG_LOCALVERSION="-Flash-Angler"
+CONFIG_LOCALVERSION="-N6P-NoobKN-8.0_UP"
 # CONFIG_LOCALVERSION_AUTO is not set
 # CONFIG_CC_OPTIMIZE_FOR_SIZE is not set
 CONFIG_FB_MSM_MDSS_HDMI_PANEL=y
